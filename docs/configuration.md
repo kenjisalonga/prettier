@@ -19,6 +19,8 @@ The options you can use in the configuration file are the same as the [API optio
 
 ## Basic Configuration
 
+
+      
 JSON:
 
 ```json
@@ -31,6 +33,7 @@ JSON:
 ```
 
 JS:
+
 
 ```js
 // prettier.config.js or .prettierrc.js
@@ -182,3 +185,4 @@ If `options.editorconfig` is `true` and an [`.editorconfig` file](https://editor
 - `indent_style`
 - `indent_size`/`tab_width`
 - `max_line_length`
+
