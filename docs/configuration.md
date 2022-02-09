@@ -19,6 +19,26 @@ The options you can use in the configuration file are the same as the [API optio
 
 ## Basic Configuration
 
+ "prettier":{
+        "arrowParens": "avoid",
+        "bracketSpacing": true,
+        "htmlWhitespaceSensitivity": "css",
+        "insertPragma": false,
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": false,
+        "printWidth": 140,
+        "proseWrap": "preserve",
+        "quoteProps": "as-needed",
+        "requirePragma": false,
+        "semi": true,
+        "singleQuote": false,
+        "tabWidth": 4,
+        "trailingComma": "none",
+        "useTabs": false,
+        "vueIndentScriptAndStyle": false,
+        "rangeStart": 0
+      }
+      
 JSON:
 
 ```json
@@ -31,6 +51,7 @@ JSON:
 ```
 
 JS:
+
 
 ```js
 // prettier.config.js or .prettierrc.js
